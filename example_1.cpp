@@ -4,13 +4,16 @@ using namespace std;
 
 int main() {
   
+  cout << setiosflags(ios::left);
+  
   for (int x = 0; x < 6; x++) {
     
     for (int y = 0; y < 4; y++) {
-      cout << left << setfill(' ') << setw(17) << "Hello";
+      cout << setw(17) << "Hello";
     }
     
     cout << endl;
+    
   }
 
 }
