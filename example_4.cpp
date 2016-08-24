@@ -24,9 +24,10 @@ int main() {
         } else if (secret > guess) {
             cout << "Too low" << endl;
         } else {
-            cout << "Congratulations" << endl;
+            cout << "Congratulations, it was " << secret << "!" << endl;
         }
     
     } while(!(guess == secret));
     
+    return 0;
 }
